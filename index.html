@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pure Balance</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.html"><img src="./Images/mainlogo.png" alt="Fitness Logo"></a>
+            </div>
+            <div class="navbar-menu">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><a href="about.html">About</a></li>
+                    <li class="navbar-item"><a href="services.html">Services</a></li>
+                    <li class="navbar-item"><a href="trainer.html">Trainer</a></li>
+                    <li class="navbar-item"><a href="blog.html">Blog</a></li>
+                    <li class="navbar-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-search">
+                <form action="search.html" method="get">
+                    <input type="text" name="query" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Fitness</h1>
+                <p class="hero-subtitle">The best fitness web application and blog for everyone</p>
+                <a href="signup.html" class="hero-button">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial section -->
+    <section class="testimonial">
+        <div class="container">
+            <h2 class="testimonial-title">What our customers say</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial-item">
+                    <img src="./Images/avis1.jpg" alt="Customer 1" class="testimonial-image">
+                    <p class="testimonial-quote">"Fitness has changed my life. I feel healthier, happier, and more
+                        confident. The app is easy to use, and the trainer is very supportive and knowledgeable."</p>
+                    <p class="testimonial-name">John Doe</p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="./Images/avis2.jpg" alt="Customer 2" class="testimonial-image">
+                    <p class="testimonial-quote">"I love Fitness. It has everything I need to stay fit and motivated.
+                        The workouts are fun and challenging, and the blog is informative and inspiring."</p>
+                    <p class="testimonial-name">Jane Smith</p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="./Images/avis3.jpg" alt="Customer 3" class="testimonial-image">
+                    <p class="testimonial-quote">"Fitness is the best fitness web application and blog I've ever used.
+                        It has a huge variety of exercises and workouts, and it offers a virtual trainer via video
+                        call."</p>
+                    <p class="testimonial-name">Mary Jones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainer section -->
+    <section class="trainer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Trainer Profile</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="trainer.jpg" alt="Trainer" class="img-fluid">
+                            <p>Name: Alex Smith</p>
+                            <p>Certifications: ACE, NASM, ISSA</p>
+                            <p>Specialties: Weight Loss, HIIT, Circuit Training</p>
+                            <p>Bio: Alex is a passionate and energetic fitness coach who loves helping people achieve
+                                their fitness goals. He has over 10 years of experience in the fitness industry and has
+                                worked with clients of all ages and fitness levels. He believes that fitness should be
+                                fun and challenging, and that everyone can benefit from a personalized and holistic
+                                approach to wellness.</p>
+                            <p>Reviews: 4.9/5 stars</p>
+                            <button id="video-call" class="btn btn-success">Video Call</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Book a Session</h3>
+                        </div>
+                        <div class="card-body">
+                            <form id="booking-form">
+                                <div class="form-group">
+                                    <label for="date">Select a Date</label>
+                                    <input type="date" id="date" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="time">Select a Time</label>
+                                    <input type="time" id="time" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="duration">Select a Duration</label>
+                                    <select id="duration" class="form-control">
+                                        <option value="30">30 minutes</option>
+                                        <option value="45">45 minutes</option>
+                                        <option value="60">60 minutes</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
